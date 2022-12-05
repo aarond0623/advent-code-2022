@@ -68,7 +68,7 @@ from supply_stacks_1 import *
 
 
 def move_crates_improved(
-    crates: list[list[str]], instruction: dict[str, int]) -> None:
+        crates: list[list[str]], instruction: dict[str, int]) -> None:
     """
     Moves crates in a 2-D array according to an instruction consisting of a
     move quantity, a from stack, and a to stack. When multiple crates are
